@@ -1,6 +1,6 @@
 # My Setup Script :floppy_disk:
 
-This repository contains a Linux configuration script [only for Ubuntu-based distributions] that I did to facilitate the installation of a new Linux distribution.
+This repository contains a Linux configuration script [only for Ubuntu-based distributions and Linux Mint] that I did to facilitate the installation of a new Linux distribution.
 
 
 
@@ -9,16 +9,18 @@ This repository contains a Linux configuration script [only for Ubuntu-based dis
 - Android Studio
 - Dart
 - Flutter [enabled WEB and Desktop]
-- Gnome Tweak
+- <s>Gnome Tweak Tool </s>
 - Google Chrome
 - KVM
 - LibreOffice
 - OpenJDK 8 JDK
-- QBittorrent
+- qBittorrent
 - Timeshift
 - Typora
 - VLC
 - Visual Studio Code
+- OBS Studio
+- VirtualBox
 
 
 
@@ -44,4 +46,4 @@ This repository contains a Linux configuration script [only for Ubuntu-based dis
 
    ### :warning: Attention :warning:
 
-   There will be the need for interaction with the terminal when the script is installing Android Studio and updating the Graphical Drivers.
+   There will be the need for interaction with the terminal when the script is installing  the Graphical Drivers.
