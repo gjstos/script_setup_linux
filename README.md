@@ -21,6 +21,9 @@ This repository contains a Linux configuration script [only for Ubuntu-based dis
 - Visual Studio Code
 - OBS Studio
 - VirtualBox
+- Gparted
+- Fira Code (font)
+- Stacer
 
 
 

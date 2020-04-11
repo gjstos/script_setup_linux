@@ -66,6 +66,9 @@ fi
 ## LibreOffice
 sudo add-apt-repository -y ppa:libreoffice/ppa
 
+## Stacer
+sudo add-apt-repository -y ppa:oguzhaninan/stacer -y
+
 ## Google Chrome
 sudo sh -c 'wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - '
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
@@ -111,8 +114,17 @@ sudo adduser "$(id -un)" kvm
 ## QBitTorrent
 sudo apt install -y qbittorrent
 
+## Stacer
+sudo apt install -y stacer
+
 ## Timeshift
 sudo apt install -y timeshift
+
+## Gparted
+sudo apt install -y gparted
+
+## Fira Code
+sudo apt install -y fonts-firacode
 
 ## LibreOffice
 sudo apt install -y libreoffice
