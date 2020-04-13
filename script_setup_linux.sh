@@ -24,7 +24,7 @@ sudo apt -y upgrade
 # =============================              Fixing missing packages             ============================= #
 
 sudo apt install -y build-essential 
-if [ "$DISTO" == "Ubuntu" ] ; then
+if [ "$DISTO" = "Ubuntu" ] ; then
     sudo apt install -y ubuntu-restricted-extras
 else 
     sudo apt install mint-meta-codecs
@@ -38,7 +38,7 @@ sudo apt install -y ffmpeg
 
 # =============================            Removing unwanted packages            ============================= #
 
-if [ "$DISTRO" == "Ubuntu" ] ; then
+if [ "$DISTRO" = "Ubuntu" ] ; then
     sudo snap remove gnome-system-monitor gnome-calculator gnome-characters gnome-logs
 fi
 
@@ -92,12 +92,12 @@ sudo apt update
 sudo apt -y upgrade
 
 ## Gnome Packages 
-if [ "$DISTRO" == "Ubuntu" ] ; then
+if [ "$DISTRO" = "Ubuntu" ] ; then
     sudo apt install -y gnome-system-monitor gnome-calculator gnome-characters gnome-logs # gnome-tweak-tool
 fi
 
 ## Snap
-if [ "$DISTRO" == "Mint" ] ; then
+if [ "$DISTRO" = "Mint" ] ; then
     sudo apt install -y snapd
 fi
 
