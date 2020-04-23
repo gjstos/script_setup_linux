@@ -24,6 +24,8 @@ This repository contains a Linux configuration script [only for Ubuntu-based dis
 - Gparted
 - Fira Code (font)
 - Stacer
+- scrcpy 
+- adb
 
 
 

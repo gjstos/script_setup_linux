@@ -146,6 +146,9 @@ sudo apt install -y dart
 ## VirtualBox
 sudo apt install -y virtualbox
 
+## Adb
+sudo apt install -y adb
+
 ## Clang 9
 # Dependency that the Flutter Desktop will need
 # Note that I am using 9 version of the clang 
@@ -163,6 +166,9 @@ sudo snap install obs-studio
 
 ## VLC
 sudo snap install vlc
+
+## scrcpy
+sudo snap install scrcpy
 
 # =============================               Flutter & Dart Setup               ============================= #
 
@@ -216,7 +222,8 @@ echo "export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools" >> ~/.
 
 
 # =============================                GitKraken Install                 ============================= #
-cd ~/Downloads
+mkir ~/Downloads/debs
+cd ~/Downloads/debs
 
 wget -c https://release.gitkraken.com/linux/gitkraken-amd64.deb
 
@@ -230,6 +237,7 @@ sudo apt full-upgrade -y
 
 # =============================                  Finally Ending                  ============================= #
 
+rm -r ~/Downloads/debs
 
 echo "                                                          ";
 echo "                                                          ";
