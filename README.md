@@ -7,7 +7,7 @@ This repository contains a Linux configuration script [only for Ubuntu-based dis
 - Android Studio
 - Dart
 - Flutter [enabled WEB and Desktop]
-- <s>Gnome Tweak Tool </s>
+- ~~Gnome Tweak Tool~~ 
 - Google Chrome
 - KVM
 - LibreOffice

@@ -24,7 +24,7 @@ sudo apt -y upgrade
 # =============================              Fixing missing packages             ============================= #
 
 sudo apt install -y build-essential 
-if [ "$DISTO" = "Ubuntu" ] ; then
+if [ "$DISTRO" = "Ubuntu" ] ; then
     sudo apt install -y ubuntu-restricted-extras
 else 
     sudo apt install mint-meta-codecs
@@ -183,9 +183,9 @@ echo ""                                                       >> ~/.bashrc
 echo "#====================================================#" >> ~/.bashrc
 echo "#    Flutter && Dart Setup"                             >> ~/.bashrc
 echo "#====================================================#" >> ~/.bashrc
-echo "export PATH=$PATH:/usr/lib/dart/bin"                    >> ~/.bashrc
-echo "export PATH=$PATH:$HOME/.pub-cache/bin"                 >> ~/.bashrc
-echo "export PATH=$PATH:$HOME/Development/flutter/bin"        >> ~/.bashrc
+echo "export PATH="$PATH":/usr/lib/dart/bin"                  >> ~/.bashrc
+echo "export PATH="$PATH":"$HOME"/.pub-cache/bin"             >> ~/.bashrc
+echo "export PATH="$PATH":"$HOME"/Development/flutter/bin"    >> ~/.bashrc
 
 ## Post configuration commands
 declare -r bashrc="$HOME"/.bashrc
