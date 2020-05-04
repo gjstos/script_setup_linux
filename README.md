@@ -7,7 +7,7 @@ This repository contains a Linux configuration script [only for Ubuntu-based dis
 - Android Studio
 - Dart
 - Flutter [enabled WEB and Desktop]
-- ~~Gnome Tweak Tool~~ 
+- Gnome Tweak Tool
 - Google Chrome
 - KVM
 - LibreOffice
@@ -17,13 +17,14 @@ This repository contains a Linux configuration script [only for Ubuntu-based dis
 - Typora
 - VLC
 - Visual Studio Code
-- OBS Studio
 - VirtualBox
 - Gparted
 - Fira Code (font)
 - Stacer
 - scrcpy
 - adb
+- pv
+- tree
 
 ## :hammer: ​Installation of the Script
 
