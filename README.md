@@ -23,6 +23,7 @@ This repository contains a Linux configuration script [only for Ubuntu-based dis
 - Stacer
 - scrcpy
 - adb
+- progress #TODO falta
 - pv
 - tree
 

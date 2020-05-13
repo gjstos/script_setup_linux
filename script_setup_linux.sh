@@ -209,8 +209,11 @@ echo "\e[96m  - qemu-kvm"
 echo "\e[96m  - libvirt-daemon-system"
 echo "\e[96m  - libvirt-clients"
 echo "\e[96m  - bridge-utils"
-echo "\e[96m  - openjdk-8-jdk\e[0m\n"
-sudo apt install -y pv tree snapd typora qbittorrent stacer timeshift gparted fonts-firacode libreoffice-base google-chrome-stable code clang-9 adb virtualbox dart qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+echo "\e[96m  - openjdk-8-jdk"
+echo "\e[96m  - libncurses5-dev"
+echo "\e[96m  - gcc"
+echo "\e[96m  - pkg-config\e[0m\n"
+sudo apt install -y pv tree snapd typora qbittorrent stacer timeshift gparted fonts-firacode libreoffice-base google-chrome-stable code clang-9 adb virtualbox dart qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils libncurses5-dev libncursesw5-dev gcc pkg-config 
 
 ## KVM
 echo "\n\e[96mAddig \e[1;6m"$THIS_USER"\e[0m \e[96mto grouops libvirt and kvm\e...\e[0m\n"
