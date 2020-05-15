@@ -11,7 +11,7 @@ This repository contains a Linux configuration script [only for Ubuntu-based dis
 - Google Chrome
 - KVM
 - LibreOffice
-- OpenJDK 8 JDK
+- OpenJDK default JDK
 - qBittorrent
 - Timeshift
 - Typora
@@ -23,9 +23,14 @@ This repository contains a Linux configuration script [only for Ubuntu-based dis
 - Stacer
 - scrcpy
 - adb
-- progress #TODO falta
+- progress
 - pv
 - tree
+- SQLite
+- Redis
+- Postgres
+- docker
+- asdf [Flutter, Go, Firebase CLI, docker-slim, Rust]
 
 ## :hammer: ​Installation of the Script
 
